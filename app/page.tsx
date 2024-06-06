@@ -1,5 +1,6 @@
 import Banner from "./components/banner";
 import CategoryList from "./components/category-list";
+import ProductList from "./components/product-list";
 import Search from "./components/search";
 import SectionTitle from "./components/section-title";
 
@@ -28,9 +29,11 @@ export default function Home() {
         />
       </div>
 
-      <div className="px-5 pt-6">
+      <div className="px-5 pb-4 pt-6">
         <SectionTitle title="Pedidos recomendados" />
       </div>
+
+      <ProductList />
     </>
   );
 }
