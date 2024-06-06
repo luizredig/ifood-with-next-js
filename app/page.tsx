@@ -1,6 +1,7 @@
 import Banner from "./components/banner";
 import CategoryList from "./components/category-list";
 import Search from "./components/search";
+import SectionTitle from "./components/section-title";
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
           alt="Até 30% de desconto em pizzas!"
           className="h-auto w-full object-contain"
         />
+      </div>
+
+      <div className="px-5 pt-6">
+        <SectionTitle title="Pedidos recomendados" />
       </div>
     </>
   );
