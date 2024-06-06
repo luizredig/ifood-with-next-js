@@ -19,7 +19,7 @@ const ProductItem = () => {
           width={0}
           height={0}
           sizes="100vw"
-          className="h-full max-h-[150px] min-h-[150px] w-full rounded-lg object-cover md:min-h-[165px] lg:min-h-[180px]"
+          className="h-full max-h-[150px] min-h-[150px] w-full rounded-lg object-cover md:min-h-[165px] lg:min-h-[180px] lg:max-w-full"
         />
 
         <div>

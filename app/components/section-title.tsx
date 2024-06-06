@@ -16,7 +16,7 @@ const SectionTitle = ({ title }: SectionTitleProps) => {
         <Link href={""}>
           <Button
             variant={"ghost"}
-            className="hover:bg-card hover:text-primary hover:underline"
+            className="p-0 hover:bg-card hover:text-primary hover:underline"
           >
             <p className="text-primary">Ver mais</p>
 
