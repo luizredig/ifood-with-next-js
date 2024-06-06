@@ -11,7 +11,7 @@ const SectionTitle = ({ title }: SectionTitleProps) => {
   return (
     <>
       <Card className="flex flex-row items-center justify-between border-none shadow-none">
-        <h2>{title}</h2>
+        <h2 className="font-semibold">{title}</h2>
 
         <Link href={""}>
           <Button
